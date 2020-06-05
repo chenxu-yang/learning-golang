@@ -1,4 +1,4 @@
-package 结构体_方法和接口
+package struct__method_and_interface
 
 import (
 	"testing"
