@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hello</title>
+</head>
+<body>
+<p>hello {{ .u1.Name }}</p>
+<p>age {{ .u1.Age }}</p>
+<p>gender {{ .u1.Gender }}</p>
+<p>hello {{ .m1.Name }}</p>
+<p>age {{ .m1.Age }}</p>
+<p>gender {{ .m1.Gender }}</p>
+{{/* comment */}}
+{{$v1:=100}}
+{{range $idx,$hobby:=.hobby}}
+    <p>{{$idx}} - {{$hobby}}</p>
+{{end}}
+</body>
+</html>
